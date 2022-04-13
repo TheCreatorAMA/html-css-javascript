@@ -1,0 +1,38 @@
+CSS lesson notes:
+  Chaining selectors:
+    - by doing .class1.class2 {} it will look for elements that have both class1 and class2 applied to them.
+    - by doing .class1, class2 {} it will apply the given css to both classes if the share similar traits.
+    - by doing .ancestor .class {} any element that has the .class and is a child of a element with the class ancestor will get the style
+  
+  Properties:
+    - color: sets the elements text color
+    - background-color: sets the background color of the element 
+    - font-family
+    - font-size
+    - font-weight
+    - text-align
+
+  The Cascade of CSS:
+    - styles get applied in the order of specificity:
+      - Inline styles
+      - Id selectors
+      - Class selectors
+      - Type selectors
+
+      Example: a style with selectors ".main .list{}" will be applied over a style with one selector like ".subsection1{}"
+
+    Basically the style that has more specificity will always be applied.
+
+  Inheritance:
+    - If a child inherits a style from its parent but it has its own class assigned to it, it will takes it class rather than
+      the inherited style 
+
+  Rule order:
+    - The tie breaker is if the styles are all on the same order of specificity then the last one declared in the css sheet will be applied.
+
+  Three ways of applying css to an html file:
+    - using: <link rel="stylesheet" href="pathToFile">
+    - using: <style> Your css goes here </style>
+    - using: <element style="your css goes here">
+
+
