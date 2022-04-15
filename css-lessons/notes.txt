@@ -40,8 +40,11 @@ Box Model:
   - Margin => the space between the box and the other boxes around it 
     - margin of two boxes doesnt add together, if two boxes are next to eachother, the box with the greater margin of the two boxes
       will be the distance between them. For example if box A has 30px of margin and box B has 50px then the distance between them will be 50px
-      not 80px.
-  - Border => the space between the Margin and Padding
+      not 80px. Another thing to note is if one box has a negative margin then it will reduce the distance between the two. Example: if one has
+      40px of margin and the other has -10px the distance between the two will be 30px.
+  - Border => the space between the Margin and Padding. The border is the last thing you can adjust that actually increases the size of
+              the box. Margin just pushed the boxes away from eachother.
+  - Content => Whats in the box!? The sizing of this can be adjusted using width and height.
 
   Outer display types:
     The properties below can be applied by using the property display
@@ -50,11 +53,21 @@ Box Model:
       - The box will fill the full size of its container 
       - The width and height properties are respected
       - Padding, margin and border will push other boxes away from it
+      - Example elements that default to Block display: <h1> <p>
     - Inline
       - The box will not break onto a new line.
       - The width and height properties will not be applied
       - Vertical padding, margins and border will apply but will not cause other inline boxes to move away from it 
       - Horizontal padding, margin and border will apply and cause other inline boxes to move away from it 
+      - Example elements that default to Inline display type: <a> <span> <em> <strong>
+  
+  Inner display types:
+    Inner display types can still be set using the "display" css property. By default it is set to normal flow.
+
+  Border-box model:
+    Is an alternative to the css  box model. The main difference is that when you set the height and width css properties
+    it sets the actual size of the box to those. Rather than the css box model where the width and height only set the size 
+    of the content and the padding and border can still expand the box.
 
         
 
