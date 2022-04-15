@@ -36,7 +36,7 @@ CSS lesson notes:
     - using: <element style="your css goes here">
 
 Box Model:
-  - Padding => the space between the content of the box and the box itself
+  - Padding => the space between the content of the box and the box itself. Padding cannot be negative, it must be greater or equal to 0.
   - Margin => the space between the box and the other boxes around it 
     - margin of two boxes doesnt add together, if two boxes are next to eachother, the box with the greater margin of the two boxes
       will be the distance between them. For example if box A has 30px of margin and box B has 50px then the distance between them will be 50px
@@ -68,6 +68,8 @@ Box Model:
     Is an alternative to the css  box model. The main difference is that when you set the height and width css properties
     it sets the actual size of the box to those. Rather than the css box model where the width and height only set the size 
     of the content and the padding and border can still expand the box.
+
+  inline-block: Look this one up!
 
         
 
