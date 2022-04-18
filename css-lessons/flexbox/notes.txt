@@ -23,3 +23,17 @@ More on flex property:
 
   NOTE ON flex-shrink and flex-grow:
     these properties will override the width property if it is given.
+
+Flex Axes:
+  There are two axes when using flex, vertical and horizontal.
+  
+  To set the axes in which flex items are aligned on you use the property:
+  
+  flex-direction: row (horizontal) or column (vertical)
+
+  Also note, when set to row flex-basis looks for width but when set to column flex-basis looks for height.
+
+  NOTE:
+    When switching between row and column for flex-direction if you dont have flex-basis set to auto when using empty divs you wont see anything. 
+    The reason being is that empty divs have 0 height so when you change it column and the flex basis is 0 all flex items will have 0 height so 
+    you wont be able to see them.
