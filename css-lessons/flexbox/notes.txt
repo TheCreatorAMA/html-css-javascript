@@ -37,3 +37,18 @@ Flex Axes:
     When switching between row and column for flex-direction if you dont have flex-basis set to auto when using empty divs you wont see anything. 
     The reason being is that empty divs have 0 height so when you change it column and the flex basis is 0 all flex items will have 0 height so 
     you wont be able to see them.
+
+Flex aligning content:
+  to align flex items in a flex container we can use the property:
+
+    justify-content:
+
+  justify-content aligns items on the main axis (row), to align items in the cross axis (column) you can use the property:
+    
+    align-items:
+
+  to further modify the spacing between flex items you can use the property:
+
+    gap:
+
+
