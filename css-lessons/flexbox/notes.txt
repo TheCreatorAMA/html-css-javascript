@@ -7,3 +7,19 @@ Flexbox notes:
   NOTE: A flex item can also be a flex container. The same goes the other way but just think about it this way. If a element has a parent that
         has the display set to flex it is a flex item and if the element has no parent that has display set to flex and its display is set to flex
         it is a flex container.
+
+
+More on flex property:
+  
+  When you define the property "flex: 1;" it actually is short hand for 3 seperate properties. 
+  the properties are "flex: flex-grow flex-shrink flex-basis;"
+
+  flex-grow: tells you how much of the container is takes up. if three elements are in a container and all have a flex-grow of 1 they will all
+             take up the same amount of space. However, if they containers have a flex gorw of (1, 2, 1) the one with flex-grow 2 will take up 2/3 of
+             the container. Think about it as fractions.
+  flex-shrink: Lets you specify how much the element should shrink by if it is larger than its parent container.
+  flex-basis: Lets you specify the starting size of the flex item. when doing short hand notation "flex: 1" flex-basis is set to 0, however, when it 
+              is defined as its own property flex-basis is set to auto. auto makes it look for a width decleration.
+
+  NOTE ON flex-shrink and flex-grow:
+    these properties will override the width property if it is given.
