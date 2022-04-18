@@ -64,6 +64,9 @@ Box Model:
   Inner display types:
     Inner display types can still be set using the "display" css property. By default it is set to normal flow.
 
+    Normal Flow:
+      
+
   Border-box model:
     Is an alternative to the css  box model. The main difference is that when you set the height and width css properties
     it sets the actual size of the box to those. Rather than the css box model where the width and height only set the size 
@@ -71,5 +74,6 @@ Box Model:
 
   inline-block: Look this one up!
 
-        
-
+More detail on Block and Inline elements:
+  <div> element: Block element main purpose is to divide the page into secitons.
+  <span> element: Is an inline element and its main purpose it to style text that is wraps. Should only use this when no other semantic html element is appropriate. 
