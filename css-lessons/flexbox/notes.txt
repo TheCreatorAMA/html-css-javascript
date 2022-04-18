@@ -1,0 +1,9 @@
+Flexbox notes:
+  Flex container: A container that holds flex items and has its own unique properties that can be applied. To make a flex container all you
+                  you do is set "display: flex;"
+
+  Flex item: a item that exists in a flex container. A flex item can also be created by setting "display: flex;".
+
+  NOTE: A flex item can also be a flex container. The same goes the other way but just think about it this way. If a element has a parent that
+        has the display set to flex it is a flex item and if the element has no parent that has display set to flex and its display is set to flex
+        it is a flex container.
