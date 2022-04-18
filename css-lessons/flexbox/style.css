@@ -1,0 +1,15 @@
+.flex-parent {
+  height: 140px;
+  width: 400px;
+  display: flex;
+  background-color: whitesmoke;
+  border: 1px solid red;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.flex-parent .flex-child {
+  background-color: orange;
+  width: 50px;
+  border: 1px solid black;
+}
