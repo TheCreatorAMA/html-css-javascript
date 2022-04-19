@@ -29,7 +29,7 @@ Flex Axes:
   
   To set the axes in which flex items are aligned on you use the property:
   
-  flex-direction: row (horizontal) or column (vertical)
+  flex-direction: row, row-reverse (horizontal) or column, column-reverse (vertical)
 
   Also note, when set to row flex-basis looks for width but when set to column flex-basis looks for height.
 
@@ -47,8 +47,12 @@ Flex aligning content:
     
     align-items:
 
+  Note: You can still use align-items when in row or justify-content when in column to have the elements fill the opposite axis
+
   to further modify the spacing between flex items you can use the property:
 
-    gap:
+    gap: gaps for all sides of flex item
+    row-gap: for adding gap on main axis
+    column-gap: for adding gap on the cross axis
 
 

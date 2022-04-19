@@ -6,10 +6,32 @@
   border: 1px solid red;
   padding: 5px;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 .flex-parent .flex-child {
   background-color: orange;
   width: 50px;
   border: 1px solid black;
+  flex: 1 1 auto;
+}
+
+.flex-parent-col {
+  height: 140px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  border: 1px solid red;
+  background-color: whitesmoke;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 2px;
+}
+
+.flex-parent-col .flex-child {
+  background-color: orange;
+  width: 50px;
+  border: 1px solid black;
+  flex: 1 1 0;
 }
