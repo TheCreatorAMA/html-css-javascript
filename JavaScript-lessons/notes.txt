@@ -14,3 +14,33 @@ Variables:
         - Constants should be all upper case if the value is known before running the code
         such as GRAVITY = 9.81;. However, constants that will be assigned during runtime should
         not be labeled with all upper case.
+
+Numbers:
+    remainder => x % y;
+
+    NOTE: Incrementing before the variable (++x) rather than after (x++) 
+    allows it to instantly increment it then be used where as doing it after 
+    the variable will increment it after the variable is used.
+    
+    Example:
+    let x = 1;
+    console.log(x++); => logs 1
+    console.log(++x); => logs 2
+
+    incrementing variables => x++ or ++x; 
+    decrementing variables => x-- or --x;
+    exponents => x ** 2
+    operator precendence => (in order of most precendence) *, /, +, -
+
+    - when working with number strings you need to convert them first by doing Number(string);
+    if you do "74" + 3 it will convert 3 to a string but if we convert it first Number("74") the 
+    result will be 77. HOWEVER, working with the operands (*, -, /) will convert the strings to numbers
+    automatically. The reason being is those are only use for numbers but the "+" operator is also used for
+    string concatenation so that will take precedence.
+
+    - Nan stands for "not a number"
+    - infinity can be represented as Infinity or -Infintiy
+
+In depth guide to operands:
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#operator_precedence
+

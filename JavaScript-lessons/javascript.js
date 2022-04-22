@@ -1,4 +1,2 @@
-let name = 'John';
-let admin = name;
-
-console.log(admin);
+let x = 1;
+console.log(++x);
