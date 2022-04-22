@@ -1,0 +1,16 @@
+JavaScript notes:
+
+Variables:
+    - Think of them as a container
+    - Three ways to define a variable
+        - var: old school way to define variables but is similar to let.
+        - let: Define a normal variable that can be assigned down the road
+        - const: Defines a constant that should be changed after being declared
+    - Naming convention
+        - can only contain letter, numbers and the symbols $ or _
+        - camelCase variables that have multiple words
+        - case matters! (apple APPLE are two different variables)
+    - Constants:
+        - Constants should be all upper case if the value is known before running the code
+        such as GRAVITY = 9.81;. However, constants that will be assigned during runtime should
+        not be labeled with all upper case.
