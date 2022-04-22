@@ -44,3 +44,16 @@ Numbers:
 In depth guide to operands:
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#operator_precedence
 
+Data types:
+    - Number: represents both integers and floating point numbers (5, 5.00). There are also special numeric
+
+    - BigInt:
+
+    - String:
+
+    - Boolean:
+
+    - null:
+
+    - undefined:
+
