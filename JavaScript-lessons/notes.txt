@@ -57,3 +57,18 @@ Data types:
 
     - undefined: value not assigned.
 
+
+String methods:
+    - str.slice(n, m) -> slices string from n up to m but not including it
+    - str.substring(n, m) -> same as slice but cannot take negative indexes
+    - str.substr(n, m) -> takes starting index then extracts m number of characters to return
+    - str.replace(old_str, new_str) -> replaces first match of given string.
+        - this is case sensitive
+        - you can pass regular expressions to it and have it replace all matches.
+    - str.toUpperCase()
+    - str.toLowerCase()
+    - str.concat(join_strings_with)
+        - strings are immutable, strings cannot be changed only replaced
+    - str.trim() -> removes whitespace from start and end of a string.
+
+
