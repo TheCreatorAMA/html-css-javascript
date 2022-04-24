@@ -47,13 +47,13 @@ In depth guide to operands:
 Data types:
     - Number: represents both integers and floating point numbers (5, 5.00). There are also special numeric
 
-    - BigInt:
+    - BigInt: for numbers greater than -2^53 - 1 to 2^53 - 1.
 
-    - String:
+    - String: you can use "", '', `` to define a string. Backticks allow you to use variables in the string
 
-    - Boolean:
+    - Boolean: true or false 
 
-    - null:
+    - null: nothing, empty, non-existing value
 
-    - undefined:
+    - undefined: value not assigned.
 
