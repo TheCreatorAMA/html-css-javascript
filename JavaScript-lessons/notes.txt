@@ -71,4 +71,7 @@ String methods:
         - strings are immutable, strings cannot be changed only replaced
     - str.trim() -> removes whitespace from start and end of a string.
 
+functions:
+    - 
+
 
