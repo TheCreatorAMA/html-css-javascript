@@ -5,9 +5,12 @@ Guide to problem solving:
         - What inputs will your program have?
         - What is the desired output?
         - Given the inputs how do you get the desired output?
-    - Pseudocode
     - Divide and conquer
-        - Break down problem into as many sub-problems as you can.
+        - Break down problem into as many sub-problems as you can.  
+    - Pseudocode
+
+If you get stuck debug! ( I mean thats what a debugger is for right? )
+If you get deep into solving a problem and are still stuck take a step back and reassess ( Sometimes deleting everything is the key)
 
 Example: 
     FizzBuzz:
@@ -21,6 +24,7 @@ Understanding the problem:
 - if number is a multiple of three print Fizz ( number modulo three )
 - if number is a multiple of five print Buzz ( number modulo five )
 - if number is a multiple of three and five print FizzBuzz ( skip this if we split up checks into two seperate ifs instead of an if else)
+
 
 
 
