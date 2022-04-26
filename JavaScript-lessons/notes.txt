@@ -72,6 +72,17 @@ String methods:
     - str.trim() -> removes whitespace from start and end of a string.
 
 functions:
-    - 
+    - a function with no return value or a blank return statement always returns undefined.
+    - when returning values you should never put long return statement on a new line like so:
+        return 
+            x = y;
+    this will return undefined, if you do need to but it onto a new line use parantheses 
+        return (
+            x = y
+        )
+
+    - Functions are actions so always name them as if they were actions.
+    - Function should only have one job, if it does multiple jobs split it up
+    into multiple functions.
 
 

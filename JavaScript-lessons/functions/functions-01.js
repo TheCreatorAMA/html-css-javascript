@@ -24,13 +24,61 @@
 // arr1 = arr1.map((item) => item * 2);
 
 // console.log(arr1);
-
 // useable example of arrow functions
 // the DOMContentLoaded event listener helps with making sure all elements are loaded before using querySelector
-document.addEventListener('DOMContentLoaded', () => {
-  const textbox = document.querySelector('#textBox');
-  console.log(textbox);
-  const output = document.querySelector('#output');
+// document.addEventListener('DOMContentLoaded', () => {
+//   const textbox = document.querySelector('#textBox');
 
-  textbox.addEventListener('keydown', (event) => (output.textContent = `you pressed ${event.key}`));
-});
+//   const output = document.querySelector('#output');
+
+//   textbox.addEventListener('keydown', (event) => (output.textContent = ``));
+// });
+
+// function squared(num) {
+//   return num * num;
+// }
+
+// function cubed() {
+//   return num * num * num;
+// }
+
+// function factorial(num) {
+//   if (num < 0) return undefined;
+//   if (num == 0) return 1;
+
+//   let x = num - 1;
+//   while (x > 1) {
+//     num *= x;
+//     x--;
+//   }
+
+//   return num;
+// }
+
+// function favAnimal(animal) {
+//   console.log(animal + ' is my favorite animal');
+// }
+
+// console.log(favAnimal('Goat'));
+
+// Function scope
+// let user = 'John';
+
+// function showMessage() {
+//   let user = 'Alex';
+//   let message = `Hello ${user}`;
+
+//   alert(message);
+// }
+
+// alert(user);
+// showMessage();
+// alert(user);
+
+function min(a, b) {
+  return a < b ? a : b;
+}
+
+console.log(min(2, 5));
+console.log(min(3, -1));
+console.log(min(1, 1));
