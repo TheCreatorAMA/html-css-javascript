@@ -1,0 +1,26 @@
+Guide to problem solving:
+    - Take the time to understand the problem before doing anything else
+    - Make a plan
+        - Does your program have a user interface?
+        - What inputs will your program have?
+        - What is the desired output?
+        - Given the inputs how do you get the desired output?
+    - Pseudocode
+    - Divide and conquer
+        - Break down problem into as many sub-problems as you can.
+
+Example: 
+    FizzBuzz:
+    Write a program that takes a user's input and prints the numbers from one to the number that the user enetered. However,
+    for the multiples of three print Fizz and for the multiples of five print Buzz. For multiples of three and five print 
+    FizzBuzz
+
+Understanding the problem:
+- user has a place to put input (browser console program)
+- print out every number from one to user input ( for loop )
+- if number is a multiple of three print Fizz ( number modulo three )
+- if number is a multiple of five print Buzz ( number modulo five )
+- if number is a multiple of three and five print FizzBuzz ( skip this if we split up checks into two seperate ifs instead of an if else)
+
+
+
