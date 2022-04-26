@@ -75,10 +75,51 @@
 // showMessage();
 // alert(user);
 
-function min(a, b) {
-  return a < b ? a : b;
+// function min(a, b) {
+//   return a < b ? a : b;
+// }
+// //
+// console.log(min(2, 5));
+// console.log(min(3, -1));
+// console.log(min(1, 1));
+
+// const sayHi = function () {
+//   alert('Hello');
+// };
+
+// alert(sayHi);
+
+// Callback functions
+// console.log(confirm('Yes?')) ; // returns true if ok is pressed and false if cancelled is pressed
+
+// Full function way of doing a callback
+// function ask(question, yes, no) {
+//   if (confirm(question)) yes();
+//   else no();
+// }
+
+// function showOk() {
+//   alert('You agreed.');
+// }
+
+// function showCancel() {
+//   alert('You cancelled the execution.');
+// }
+
+// ask('Do you agree?', showOk, showCancel);
+
+// Function expression way of doing a callback
+function ask(question, yes, no) {
+  if (confirm(question)) yes();
+  else no();
 }
 
-console.log(min(2, 5));
-console.log(min(3, -1));
-console.log(min(1, 1));
+ask(
+  'Do you agree',
+  function () {
+    alert('You agreed.');
+  },
+  function () {
+    alert('You canceled the execution.');
+  }
+);

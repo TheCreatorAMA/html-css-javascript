@@ -85,4 +85,6 @@ functions:
     - Function should only have one job, if it does multiple jobs split it up
     into multiple functions.
 
-
+    function expression vs function declaration:
+        - A declaration is a separate statment of code and it can be called earlier than it is defined (bascially if it is declared at the end of the code it can be used at the beginning)
+        - A expression is a function created inside another another syntax constructor. It can only be used after the script reaches it in the code ( Can only be used after declaration)
