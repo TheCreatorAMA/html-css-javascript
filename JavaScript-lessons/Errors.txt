@@ -1,0 +1,17 @@
+Errors:
+    - In JavaScript they are object with a name and type.
+
+    Reference error:
+        - When a variable that is not defined or initialized in current scope.
+
+    Syntax Error:
+        - When you are trying to run code that is not written correctly
+
+    TypeError:
+        - operand or argument passed to a function is incompatible with the type expected by that operator or function.
+        - when attempting to modify a value that cannot be changed.
+        - when attempting to use a value in an inappropriate way.
+
+    warnings vs errors:
+        - Errors will stop code while warnings will not.
+        - Warnings should be addressed as soon as possible.
