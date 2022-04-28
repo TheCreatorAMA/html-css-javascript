@@ -1,0 +1,11 @@
+Clean Code:
+    - Use consistent indentation (tabs or spaces pick one)
+    - Use semicolons regardless
+    - Limit line length
+    - When naming things use camel case and begin with a noun or an adjective.
+
+    Other tips for clean code:
+        - revise logic before coding (make a flow diagram)
+        - write good consice comments.
+        - avoid very large functions.
+        - summarize imports (better to have fewer files to be imported rather than multiple)
