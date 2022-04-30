@@ -1,1 +1,2 @@
-./JavaScript-lessons/javascript-exercises/node_modules
+node_modules
+.gitignore

@@ -1,4 +1,4 @@
-const repeatString = require('./repeatString')
+const repeatString = require('./repeatString');
 
 describe('repeatString', () => {
   test('repeats the string', () => {
@@ -22,10 +22,10 @@ describe('repeatString', () => {
     equals a number between 0 to 999 (this number will change everytime you run
     the test).*/
 
-    // DO NOT use Math.floor(Math.random() * 1000) in your code, 
+    // DO NOT use Math.floor(Math.random() * 1000) in your code,
     // this test generates a random number, then passes it into your code with a function parameter.
     // If this doesn't make sense, you should go read about functions here: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/fundamentals-part-3
-    const number = Math.floor(Math.random() * 1000)
+    const number = Math.floor(Math.random() * 1000);
     /*The .match(/((hey))/g).length is a regex that will count the number of heys
     in the result, which if your function works correctly will equal the number that
     was randomly generated. */
