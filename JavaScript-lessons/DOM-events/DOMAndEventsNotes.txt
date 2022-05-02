@@ -1,0 +1,51 @@
+DOM and event notes:
+Answer these questions after finishing.zzs
+
+Explain what the DOM is in relation to a webpage.
+
+
+Explain the difference between a “node” and an “element”.
+
+
+Explain how to target nodes with “selectors”.
+
+
+Explain the basic methods for finding/adding/removing and altering DOM nodes.
+
+
+Explain the difference between a “nodelist” and an “array of nodes”.
+
+
+Explain what “bubbling” is and how it works.
+
+
+---------- Notes ----------
+DOM stands for "document object model" and when your browser parses your html it builds the DOM which is a tree like structure with nodes
+having different relationships.
+
+you use selectors to target notes such as:
+    div.display
+    .display
+    #container > .display
+    div#container > div.display
+
+DOM methods that allow you to retrieve elements using selectors:
+
+    element.querySelector(selector) returns a reference to the first match of selector
+    element.querySelectorAll(selectors) returns a “nodelist” containing references to all of the matches of the selectors
+        ^^NOTE: querySelectorAll does not return an array but a node list. May be needed to convert it to a array using Array.from()
+
+Element Creation
+
+    document.createElement(tagName, [options]) creates a new element of tag type tagName. [options] in this case means you can add some optional parameters to the function. Don’t worry about these at this point.
+
+Then to add elements to the DOM:
+
+Append Elements
+
+    parentNode.appendChild(childNode) appends childNode as the last child of parentNode
+    parentNode.insertBefore(newNode, referenceNode) inserts newNode into parentNode before referenceNode
+
+
+
+
