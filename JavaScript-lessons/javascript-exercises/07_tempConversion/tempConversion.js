@@ -12,7 +12,7 @@ const ctof = function (celsius) {
     return 32;
   }
 
-  let fahrenheit = celsius * (9 / 5) + 32;
+  let fahrenheit = celsiusDOM * (9 / 5) + 32;
   return Number(fahrenheit.toFixed(1));
 };
 
