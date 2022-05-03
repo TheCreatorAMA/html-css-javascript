@@ -69,5 +69,15 @@ NOTE:
         If your scripts need to wait for parsing and depend on other scripts and/or the DOM being in place, load them using defer and put their corresponding <script> elements in the order you want the browser to execute them.
 
 
+Events:
+there are three methods to listening for events on html elements:
+    - assign event functions directly to html element
+    - use "on_event_" property on the DOM object in your javascript 
+    - or use addEventListener() to the DOM object in your javascript
 
+if you pass "e" to the addEventListener method you can access many useful properties about the event
+Example:
+    document.addEventListener("click", (e) => {
+        Do what you want with e
+    })
 
