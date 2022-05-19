@@ -92,3 +92,39 @@ functions:
 Call stack:
     - JavaScript is a single threaded programming language and only has one call stack meaning it can only do one thing at a time.
     - call stack works on a LIFO structure (last in first out)
+
+Objects:
+    can be created using the two methods below:
+        - let a = new Object()
+        - let a = {}
+
+    objects have properties that are key value pairs:
+        - {
+            name: "Alex",
+            age: "25",
+        }
+    objects can also have multiword properties but must be accessed using square brackets
+        - let a = {
+            "likes animal": "yes"
+        }
+
+        and to access it you would do: a["likes animal"]
+
+    you can do computed properties by doing using square brackets for the property name:
+        let a = "name";
+
+        let b = {
+            [a]: "alex"
+        }
+
+        now the b object will have a property of name since a was set to name
+
+    a shorthand way to define a key value property can be done using:
+        let name = "alex";
+        let b = {
+            name,
+        }
+    
+    now b will have a property of name with a value of alex.
+
+    
